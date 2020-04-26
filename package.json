@@ -9,6 +9,9 @@
   },
   "author": "Ariya Hidayat",
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
     "prettier": "~2.0.5"
   },
