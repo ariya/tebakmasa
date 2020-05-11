@@ -1,5 +1,9 @@
 # Tebak Masa
 
+![npm (scoped)](https://img.shields.io/npm/v/@ariya/tebakmasa)
+[![GitHub license](https://img.shields.io/github/license/ariya/tebakmasa)](https://github.com/ariya/tebakmasa/blob/master/LICENSE)
+
+
 [Bahasa Indonesia](#indonesian) | [English](#english)
 
 ---
