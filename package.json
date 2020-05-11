@@ -11,7 +11,9 @@
   "author": "Ariya Hidayat",
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "README.md",
+    "LICENSE"
   ],
   "devDependencies": {
     "jasmine": "~3.5.0",
