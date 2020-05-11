@@ -2,6 +2,7 @@
   "name": "@ariya/tebakmasa",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "Infer the date and time from the general description in Bahasa Indonesia",
   "scripts": {
     "test": "npm run unit-tests && npm run check-format",
     "unit-tests": "jasmine",
@@ -14,6 +15,19 @@
     "index.js",
     "README.md",
     "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ariya/tebakmasa.git"
+  },
+  "keywords": [
+    "nlp",
+    "bahasa",
+    "indonesia",
+    "bahasa-indonesia",
+    "date",
+    "time",
+    "timestamp"
   ],
   "devDependencies": {
     "jasmine": "~3.5.0",
