@@ -6,11 +6,13 @@
 
 ### <a name="indonesian"></a>Bahasa Indonesia
 
-**Tebak Masa** digunakan untuk mengira tanggal dan waktu dari deskripsi umumnya dalam bahasa Indonesia.
+**Tebak Masa**: [pustaka](https://www.npmjs.com/package/@ariya/tebakmasa) JavaScript untuk mengira tanggal dan waktu dari deskripsi umumnya dalam bahasa Indonesia.
 
 Contoh:
 
 ```js
+const tebakmasa = require('@ariya/tebakmasa');
+
 tebakmasa('3 menit yang lalu');
 tebakmasa('13:37 WIB');
 tebakmasa('17 Agustus 2020 10:00');   // 1600311600028
@@ -24,10 +26,12 @@ Nilai yang dikembalikan pemanggilan fungsi `tebakmasa` adalah _Unix epoch_, juml
 
 ### <a name="english"></a>English
 
-**Tebak Masa** is used to infer the date and time from the general description in Indonesian.
+**Tebak Masa**: a JavaScript [library](https://www.npmjs.com/package/@ariya/tebakmasa) is used to infer the date and time from the general description in Indonesian.
 
 Examples:
 ```js
+const tebakmasa = require('@ariya/tebakmasa');
+
 tebakmasa('3 menit yang lalu');
 tebakmasa('13:37 WIB');
 tebakmasa('17 Agustus 2020 10:00');   // 1600311600028
