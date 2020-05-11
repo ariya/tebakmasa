@@ -2,6 +2,7 @@
 
 ![npm (scoped)](https://img.shields.io/npm/v/@ariya/tebakmasa)
 [![GitHub license](https://img.shields.io/github/license/ariya/tebakmasa)](https://github.com/ariya/tebakmasa/blob/master/LICENSE)
+![Tests](https://github.com/ariya/tebakmasa/workflows/Tests/badge.svg)
 
 
 [Bahasa Indonesia](#indonesian) | [English](#english)
