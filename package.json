@@ -1,5 +1,5 @@
 {
-  "name": "tebakmasa",
+  "name": "@ariya/tebakmasa",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
