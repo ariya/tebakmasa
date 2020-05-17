@@ -1,6 +1,7 @@
 # Tebak Masa
 
 ![npm (scoped)](https://img.shields.io/npm/v/@ariya/tebakmasa)
+![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@ariya/tebakmasa.svg)
 [![GitHub license](https://img.shields.io/github/license/ariya/tebakmasa)](https://github.com/ariya/tebakmasa/blob/master/LICENSE)
 ![Tests](https://github.com/ariya/tebakmasa/workflows/Tests/badge.svg)
 
