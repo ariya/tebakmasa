@@ -81,7 +81,6 @@ function tebakmasa(masa, options) {
             } else if (state.unit === 'hari') {
                 anchor -= state.number * 24 * 60 * 60 * 1000;
             } else if (typeof state.unit === 'string' && state.unit.length > 0) {
-                console.error('while parsing', segments, state);
                 throw new Error('Unknown time unit ' + state.unit);
             } else {
                 // ignore
