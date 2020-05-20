@@ -1,6 +1,6 @@
 {
   "name": "@ariya/tebakmasa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "description": "Infer the date and time from the general description in Bahasa Indonesia",
   "scripts": {
