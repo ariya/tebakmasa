@@ -12,7 +12,7 @@
 
 ### <a name="indonesian"></a>Bahasa Indonesia
 
-**Tebak Masa**: [pustaka](https://www.npmjs.com/package/@ariya/tebakmasa) JavaScript untuk mengira tanggal dan waktu dari deskripsi umumnya dalam bahasa Indonesia.
+**Tebak Masa**: pustaka JavaScript untuk Node.js ([@ariya/tebakmasa](https://www.npmjs.com/package/@ariya/tebakmasa)) guna mengira tanggal dan waktu dari deskripsi umumnya dalam bahasa Indonesia.
 
 Contoh:
 
@@ -32,7 +32,7 @@ Nilai yang dikembalikan pemanggilan fungsi `tebakmasa` adalah _Unix epoch_, juml
 
 ### <a name="english"></a>English
 
-**Tebak Masa**: a JavaScript [library](https://www.npmjs.com/package/@ariya/tebakmasa) is used to infer the date and time from the general description in Indonesian.
+**Tebak Masa**: a JavaScript library for Node.js ([@ariya/tebakmasa](https://www.npmjs.com/package/@ariya/tebakmasa)) to infer the date and time from the general description in Indonesian (_Bahasa Indonesia_).
 
 Examples:
 ```js
