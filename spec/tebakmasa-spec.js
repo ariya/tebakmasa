@@ -50,6 +50,11 @@ describe('tebakmasa', function () {
         expect(new Date(tebakmasa('28/4/2021 4:56   WIT', opt)).toUTCString()).toEqual('Tue, 27 Apr 2021 19:56:00 GMT');
     });
 
+    it('should handle spaced datestamp numbers with the default timezone', function () {
+        const opt = { ref: 0 };
+        expect(new Date(tebakmasa('28 4 2021 4:56', opt)).toUTCString()).toEqual('Tue, 27 Apr 2021 21:56:00 GMT');
+    });
+
     it('should handle month names', function () {
         const opt = { ref: 123456789 };
         expect(new Date(tebakmasa('14 Mar 2020 13:37', opt)).toUTCString()).toEqual('Sat, 14 Mar 2020 06:37:00 GMT');

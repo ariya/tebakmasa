@@ -114,7 +114,11 @@ function tebakmasa(masa, options) {
             if (asNumber > 1900) {
                 state.year = asNumber;
             } else if (asNumber >= 1 && asNumber <= 31) {
-                state.date = asNumber;
+                if (state.date && asNumber <= 12) {
+                    state.month = asNumber - 1;
+                } else {
+                    state.date = asNumber;
+                }
             }
         }
     });
