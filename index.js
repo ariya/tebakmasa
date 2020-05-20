@@ -88,6 +88,8 @@ function tebakmasa(masa, options) {
             if (anchor !== ref) {
                 state.relative = anchor;
             }
+        } else if (segment === 'wib') {
+            state.tzOffset = 7;
         } else if (segment === 'wita') {
             state.tzOffset = 8;
         } else if (segment === 'wit') {
