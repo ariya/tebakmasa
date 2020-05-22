@@ -28,23 +28,19 @@ function findMonth(monthName) {
         'december'
     ];
 
-    const name = monthName;
+    const name = monthName.toLowerCase();
     const idIndex = MONTH_NAMES_ID.indexOf(name);
     if (idIndex >= 0) return idIndex;
     const enIndex = MONTH_NAMES_EN.indexOf(name);
     if (enIndex >= 0) return enIndex;
-    let match = -1;
-    MONTH_NAMES_ID.forEach((m) => {
-        const sub = m.substr(0, name.length);
-        if (sub === name.toLowerCase()) match = findMonth(m);
+    const idMatch = MONTH_NAMES_ID.find((m) => {
+        return m.substr(0, name.length) === name;
     });
-    if (match < 0) {
-        MONTH_NAMES_EN.forEach((m) => {
-            const sub = m.substr(0, name.length);
-            if (sub === name.toLowerCase()) match = findMonth(m);
-        });
-    }
-    return match;
+    if (idMatch) return MONTH_NAMES_ID.indexOf(idMatch);
+    const enMatch = MONTH_NAMES_EN.find((m) => {
+        return m.substr(0, name.length) === name;
+    });
+    return enMatch ? MONTH_NAMES_EN.indexOf(enMatch) : -1;
 }
 
 function tebakmasa(masa, options) {

@@ -60,6 +60,11 @@ describe('tebakmasa', function () {
         expect(new Date(tebakmasa('14 Mar 2020 13:37', opt)).toUTCString()).toEqual('Sat, 14 Mar 2020 06:37:00 GMT');
     });
 
+    it('should handle abbreviated English month name', function () {
+        const opt = { ref: 123456789 };
+        expect(new Date(tebakmasa('27 Oct 2021 13:37', opt)).toUTCString()).toEqual('Wed, 27 Oct 2021 06:37:00 GMT');
+    });
+
     it('should ignore day-of-the-week', function () {
         const opt = { ref: 0 };
         expect(new Date(tebakmasa('Sabtu 16 Mei 2020 12:34', opt)).toUTCString()).toEqual(
