@@ -29,10 +29,10 @@ function findMonth(monthName) {
     ];
 
     const name = monthName;
-    let index = MONTH_NAMES_ID.indexOf(name);
-    if (index >= 0) return index;
-    index = MONTH_NAMES_EN.indexOf(name);
-    if (index >= 0) return index;
+    const idIndex = MONTH_NAMES_ID.indexOf(name);
+    if (idIndex >= 0) return idIndex;
+    const enIndex = MONTH_NAMES_EN.indexOf(name);
+    if (enIndex >= 0) return enIndex;
     let match = -1;
     MONTH_NAMES_ID.forEach((m) => {
         const sub = m.substr(0, name.length);
