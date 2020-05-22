@@ -44,6 +44,7 @@ function findMonth(monthName) {
 }
 
 function tebakmasa(masa, options) {
+    'use strict';
     if (!masa) return null;
 
     const ref = options && options.ref ? options.ref : Date.now();
