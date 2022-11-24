@@ -34,7 +34,7 @@
     "node": ">=4.2.0"
   },
   "devDependencies": {
-    "jasmine": "~3.5.0",
+    "jasmine": "~4.5.0",
     "prettier": "~2.0.5"
   },
   "prettier": {
